@@ -1,6 +1,7 @@
 # Progetto di Basi di Dati - Gestione di un Hotel
 
-Progetto realizzato per l'esame di Basi di Dati.
+Progetto realizzato per l'esame di Basi di Dati presso l'Università degli Studi di Salerno.
+
 Consiste nella creazione di un database di un hotel che gestisce online i clienti, le loro prenotazioni, i soggiorni, le camere, i servizi e le recensioni. Comprende la progettazione (schema E-R e schema logico), il database in MySQL con i dati di esempio, le query richieste e una piccola applicazione Java che accede al database tramite JDBC.
 
 ## Tecnologie usate
@@ -12,22 +13,25 @@ Consiste nella creazione di un database di un hotel che gestisce online i client
 ## Struttura del progetto
 
 ├── sql/
-
 │   ├── CreazioneDatabase.sql      creazione tabelle e dati di esempio
-
 │   └── Queries.sql                le query del progetto
-
 ├── jdbc/
-
 │   ├── src/Main.java              applicazione Java con JDBC
-
 │   └── lib/                       driver MySQL Connector/J
-
 └── docs/                          schemi E-R e presentazione
 
 ## Query
 
-Il file `sql/Queries.sql` contiene una query per ognuna delle tipologie richieste dal corso: selezione ordinata con AND e OR, selezione su più tabelle, selezioni aggregate (su tutti i valori, con raggruppamenti, con condizioni e con funzione annidata), operazione insiemistica con UNION e divisione.
+Il file `sql/Queries.sql` contiene una query per ognuna delle tipologie richieste dal corso:
+
+- selezione ordinata su un attributo con condizioni AND e OR
+- selezione su due o più tabelle con condizioni
+- selezione aggregata su tutti i valori
+- selezione aggregata su raggruppamenti
+- selezione aggregata su raggruppamenti con condizioni
+- selezione aggregata su raggruppamenti con condizioni che includono un'altra funzione di raggruppamento
+- selezione con operazione insiemistica (UNION)
+- selezione con uso della divisione
 
 ## Come avviare il progetto
 
