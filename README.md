@@ -12,6 +12,7 @@ Consiste nella creazione di un database di un hotel che gestisce online i client
 
 ## Struttura del progetto
 
+```
 ├── sql/
 │   ├── CreazioneDatabase.sql      creazione tabelle e dati di esempio
 │   └── Queries.sql                le query del progetto
@@ -19,6 +20,7 @@ Consiste nella creazione di un database di un hotel che gestisce online i client
 │   ├── src/Main.java              applicazione Java con JDBC
 │   └── lib/                       driver MySQL Connector/J
 └── docs/                          schemi E-R e presentazione
+```
 
 ## Query
 
