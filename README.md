@@ -1,8 +1,7 @@
 # Progetto di Basi di Dati - Gestione di un Hotel
 
-Progetto realizzato per l'esame di Basi di Dati (Informatica, Università degli Studi di Salerno).
-
-Il progetto consiste nella creazione di un database di un hotel che gestisce online i clienti, le loro prenotazioni, i soggiorni, le camere, i servizi e le recensioni. Comprende la progettazione (schema E-R e schema logico), il database in MySQL con i dati di esempio, le query richieste e una piccola applicazione Java che accede al database tramite JDBC.
+Progetto realizzato per l'esame di Basi di Dati.
+Consiste nella creazione di un database di un hotel che gestisce online i clienti, le loro prenotazioni, i soggiorni, le camere, i servizi e le recensioni. Comprende la progettazione (schema E-R e schema logico), il database in MySQL con i dati di esempio, le query richieste e una piccola applicazione Java che accede al database tramite JDBC.
 
 ## Tecnologie usate
 
@@ -13,11 +12,17 @@ Il progetto consiste nella creazione di un database di un hotel che gestisce onl
 ## Struttura del progetto
 
 ├── sql/
+
 │   ├── CreazioneDatabase.sql      creazione tabelle e dati di esempio
+
 │   └── Queries.sql                le query del progetto
+
 ├── jdbc/
+
 │   ├── src/Main.java              applicazione Java con JDBC
+
 │   └── lib/                       driver MySQL Connector/J
+
 └── docs/                          schemi E-R e presentazione
 
 ## Query
